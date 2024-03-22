@@ -1,3 +1,3 @@
 [submodule "user"]
 	path = user
-	url = https://github.com/Crabston/grav-skeleton-simple-site.git
+	url = https://github.com/Crabston/grav-skeleton-minimal.git
