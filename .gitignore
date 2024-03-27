@@ -38,6 +38,12 @@ Icon?
 Thumbs.db
 *.swp
 
+# phpstorm
+.idea/*
+!.idea/runConfigurations/*
+!.idea/codeStyles/*
+!.idea/watcherTasks.xml
+
 # testing stuff
 tests/_output/*
 tests/_support/_generated/*
