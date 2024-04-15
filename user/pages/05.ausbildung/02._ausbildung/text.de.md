@@ -1,9 +1,6 @@
 ---
-title: main
-body_classes: modular
-class: p-main
+title: ausbildung
 published: true
-image_align: left
 ---
 
 2018 wurde der Verein "Musikschule Berg" mit dem Ziel, Nachwuchs für die Musikgesellschaften Rumisberg, Farnern und Wolfisberg auszubilden, gegründet. In 2019 ist die Musikgesellschaft Niederbipp dazu gekommen.

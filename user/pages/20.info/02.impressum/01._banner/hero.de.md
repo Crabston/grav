@@ -1,11 +1,7 @@
 ---
-title: hero
-body_classes: "modular"
-class: p-hero
-image_align: left
+title: banner
 hero_classes: "text-light overlay-dark parallax"
 hero_image: theme://images/hero/default-banner.webp
-published: true
 ---
 
-# Ausbildung
+## Impressum

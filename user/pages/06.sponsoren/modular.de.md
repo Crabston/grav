@@ -8,5 +8,5 @@ body_classes: p-sponsoren
 sitemap:
   changefreq: yearly
   priority: 0.3
-date: 18.4.2023
+date: 01.01.2024
 ---

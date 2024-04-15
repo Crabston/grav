@@ -1,9 +1,6 @@
 ---
 title: datenschutz
-body_classes: modular
-class: p-datenschutz
 published: true
-image_align: left
 ---
 
 ## Urheberrechte

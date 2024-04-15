@@ -1,9 +1,6 @@
 ---
-title: main
-body_classes: modular
-class: p-main
+title: kalender
 published: true
-image_align: left
 ---
 
 ## Veranstaltungen und Auftritte

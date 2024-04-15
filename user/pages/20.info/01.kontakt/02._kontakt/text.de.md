@@ -1,9 +1,6 @@
 ---
-title: main
-body_classes: modular
-class: p-main
+title: kontakt
 published: true
-image_align: left
 ---
 
 ## Kontakt

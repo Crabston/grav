@@ -1,9 +1,6 @@
 ---
 title: impressum
-body_classes: modular
-class: p-impressum
 published: true
-image_align: left
 ---
 
 Diese Website, [mgrumisberg.ch](http://mgrumisberg.ch), wird betrieben von der [Musikgesellschaft Rumisberg](mailto:kontakt@mgrumisberg.ch). Die Programmierung und Wartung der Website geschieht durch [Nicholas Krebs](https://nicholas-krebs.ch).

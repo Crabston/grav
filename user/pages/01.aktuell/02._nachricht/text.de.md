@@ -1,9 +1,6 @@
 ---
-title: message
-body_classes: modular
-class: p-message
+title: nachricht
 published: true
-image_align: left
 ---
 
 ## Aktuell

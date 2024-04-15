@@ -1,9 +1,7 @@
 ---
-title: main
-body_classes: modular
-class: p-main
+title: verein
 published: true
-image_align: left
+date: 07.02.2024
 ---
 
 Unser Besetzungstyp ist nach dem Vorbild englischer Brass Bands. Zurzeit besteht unser Verein aus 23 aktiven Musikantinnen und Musikanten.
@@ -45,7 +43,7 @@ Fabian Brudermann ist unser Vize-Dirigent. Er engagiert sich sehr intensiv in vi
 Gerhard Ryf  
 Farnernstrasse 40  
 4539 Rumisberg  
-<a href="tel:+41793100925">079 310 09 25</a>
+<a href="tel:+41793100925">079 310 09 25</a>  
 <a href="mailto:praesident@mgrumisberg.ch">praesident@mgrumisberg.ch</a>
 
 #### Fabian Brudermann
@@ -53,5 +51,5 @@ Farnernstrasse 40
 Fabian Brudermann  
 Dorfstrasse 16  
 4539 Rumisberg  
-<a href="tel:+41795111116">079 511 11 16</a>
+<a href="tel:+41795111116">079 511 11 16</a>  
 <a href="mailto:fabian.brudermann@mgrumisberg.ch">fabian.brudermann@mgrumisberg.ch</a>
