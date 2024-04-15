@@ -1,7 +1,6 @@
 ---
 title: verein
 published: true
-date: 07.02.2024
 ---
 
 Unser Besetzungstyp ist nach dem Vorbild englischer Brass Bands. Zurzeit besteht unser Verein aus 23 aktiven Musikantinnen und Musikanten.
