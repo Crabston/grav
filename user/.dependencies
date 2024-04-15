@@ -124,9 +124,9 @@ git:
         path: user/plugins/shortcode-ui
         branch: master
     sitemap:
-        url: https://github.com/getgrav/grav-plugin-sitemap
+        url: https://github.com/Crabston/grav-plugin-sitemap
         path: user/plugins/sitemap
-        branch: master
+        branch: develop
     youtube:
         url: https://github.com/getgrav/grav-plugin-youtube
         path: user/plugins/youtube
