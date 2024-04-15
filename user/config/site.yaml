@@ -1,20 +1,19 @@
-title: "Grav Demo"
+title: "Musikgesellschaft Rumisberg"
 default_lang: de
 author:
-  name: Crabston
-  email: contact@crabston.dev
+  name: Nicholas Krebs
+  email: "nicholas@nicholas-krebs.ch"
 taxonomies:
   - category
   - tag
-  - month
-  - author
-  - filter
 metadata:
-  description: "Diese Seite dient als inoffizielle Demonstration und Hilfestellung für Grav"
+  description: "Dies ist die Website der Musikgesellschaft Rumisberg"
 summary:
   enabled: true
   format: short
   size: 300
-  delimiter: '==='
+  delimiter: "==="
+redirects: null
+routes: null
 blog:
-  route: ''
+  route: /blog

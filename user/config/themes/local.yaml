@@ -33,16 +33,16 @@ dropdown:
   enabled: false
 blog_page_hero_classes: 'text-light title-h1h2 overlay-dark-gradient hero-large parallax'
 custom_logo:
-  user/themes/local/images/logo/logo.png:
-    name: logo.png
-    full_path: logo.png
+  user/themes/local/images/logo/logo.webp:
+    name: logo.webp
+    full_path: logo.webp
     type: image/png
     size: 77545
-    path: user/themes/local/images/logo/logo.png
+    path: user/themes/local/images/logo/logo.webp
 custom_logo_mobile:
-  user/themes/local/images/logo/logo.png:
-    name: logo.png
-    full_path: logo.png
+  user/themes/local/images/logo/logo.webp:
+    name: logo.webp
+    full_path: logo.webp
     type: image/png
     size: 77545
-    path: user/themes/local/images/logo/logo.png
+    path: user/themes/local/images/logo/logo.webp

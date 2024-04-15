@@ -1,0 +1,14 @@
+state: enabled
+email: g.ryf@bluewin.ch
+fullname: 'Gerhard Ryf'
+language: de
+content_editor: default
+twofa_enabled: false
+twofa_secret: KMDXQJC3R3SGMAMWVTWHGQVVLKSLYW2O
+avatar: {  }
+hashed_password: $2y$10$1vHzq.vconyB7p6s33.aQOFQJHNIxUgKJgfEssf4kgBTbRNujSC/i
+groups:
+  - g_default
+  - g_statistics
+  - g_maintainer
+  - g_editor

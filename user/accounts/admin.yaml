@@ -1,11 +1,12 @@
 state: enabled
-email: admin@crabston.dev
+email: admin@mgrumisberg.ch
 fullname: Administrator
 title: Administrator
+language: de
 access:
   admin:
     login: true
     super: true
   site:
     login: true
-hashed_password: $2y$10$nTm2DQjPWpyW9Qz7pIyQhOXbNVV9HZ2jqU83WwRmNuZmmMsJ2gP.u
+hashed_password: $2y$10$RhP1hdYcXvxClimbYGDxIOln/lQAiTfZ5i13y9OHqHpSKhS.Z34Mi
