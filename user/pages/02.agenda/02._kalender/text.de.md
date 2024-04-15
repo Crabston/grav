@@ -7,6 +7,8 @@ published: true
 
 ### Dieses Jahr
 
+[div class="table-responsive"]
+
 | Datum         | Zeit | Beschreibung                | Ort                 |
 |:--------------|:-----|:----------------------------|:--------------------|
 | 26.1.2024     |      | Generalversammlung          |                     |
@@ -16,9 +18,13 @@ published: true
 | 1.8.2024      |      | Bundesfeier                 | Rumisberg           |
 | 15.9.2024     |      | Suppenhöck                  | Rumisberg           |
 | 19-20.10.2024/ </br>26-27.10.2024 |      | Jahreskonzert               | Rumisberg           |
+[/div]
 
 ### Nächsten Jahre
+
+[div class="table-responsive"]
 
 | Datum        | Zeit | Beschreibung                | Ort                 |
 |:-------------|:-----|:----------------------------|:--------------------|
 | 12.4.2025    |      | Veteranentagung             | Turnhalle Rumisberg |
+[/div]
