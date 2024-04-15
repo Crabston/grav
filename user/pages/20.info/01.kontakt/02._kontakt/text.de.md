@@ -7,6 +7,6 @@ published: true
 
 Kontaktiere uns unter:
 
-Musikgesellschaft Rumisberg
-4539 Rumisberg
+Musikgesellschaft Rumisberg  
+4539 Rumisberg  
 [kontakt@mgrumisberg.ch](mailto:kontakt@mgrumisberg.ch)

@@ -10,11 +10,11 @@ Diese Website, [mgrumisberg.ch](http://mgrumisberg.ch), wird betrieben von der [
 ### Vereinspräsident
 Bei Fragen oder Anregungen in Bezug auf die Musikgesellschaft Rumisberg melden Sie sich bitte beim Vereinspräsidenten Gerhard Ryf:
 
-Gerhard Ryf
+Gerhard Ryf  
 [praesident@mgrumisberg.ch](mailto:praesident@mgrumisberg.ch)
 
 ### Webmaster
 Für technische Fragen oder Anregungen (Website, E-Mail, etc.) melden Sie sich beim Webmaster Nicholas Krebs:
 
-Nicholas Krebs
+Nicholas Krebs  
 [kontakt@nicholas-krebs.ch](mailto:kontakt@nicholas-krebs.ch)
