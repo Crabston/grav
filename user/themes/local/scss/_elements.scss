@@ -1,0 +1,59 @@
+@import 'theme';
+
+// hero
+.hero {
+	height: 30rem;
+
+	.container {
+		padding: 0;
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		max-width: none;
+	}
+
+	h2 {
+		font-size: 2rem;
+		margin: 0;
+		padding: 1rem;
+		text-align: center;
+		background-color: #000000B2;
+		color: #ffffff !important;
+	}
+}
+
+// overlays
+.image-overlay {
+	.overlay-dark & {
+		background-color: $overlay-dark;
+	}
+
+	.overlay-dark-gradient & {
+		background: linear-gradient(to bottom, $overlay-dark-grad-from, $overlay-dark-grad-to);
+	}
+}
+
+// header & footer
+#header {
+	background-color: $header-background;
+
+	.container {
+		max-width: unset;
+	}
+
+	.title {
+		color: $sec-text-color;
+		font-size: 1rem !important;
+	}
+}
+
+#footer {
+	background: $footer-background !important;
+
+	&, a {
+		color: $sec-text-color;
+	}
+}
+
+// navigation
+

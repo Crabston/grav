@@ -32,6 +32,7 @@
     {% do assets.addJs('theme://js/jquery.treemenu.js', {group:'bottom'}) %}
     {% do assets.addJs('theme://js/site.js', {group:'bottom'}) %}
     {% do assets.addJs('theme://js/my.js', 100) %}
+    {% do assets.addJs('theme://js/active-link.js', {group:'bottom'}) %}
     {% do assets.addJs('theme://js/table.js', {group:'bottom'}) %}
 {% endblock %}
 
@@ -55,19 +56,6 @@
                     <section class="navbar-section logo">
                         {% include 'partials/logo.html.twig' %}
                     </section>
-                    <section class="navbar-section desktop-menu">
-
-                        <nav class="dropmenu animated">
-                        {% block header_navigation %}
-                            {% include 'partials/navigation.html.twig' %}
-                        {% endblock %}
-                        </nav>
-
-                        {% if config.plugins.login.enabled and grav.user.username %}
-                            <span class="login-status-wrapper"><i class="fa fa-user"></i> {% include 'partials/login-status.html.twig' %}</span>
-                        {% endif %}
-
-                    </section>
                 </nav>
             </section>
         </section>
@@ -84,6 +72,14 @@
     {% else %}
       <div style="margin-bottom: -80px;"></div>
     {% endif %}
+
+    <section class="navbar-section desktop-menu">
+        <nav class="dropmenu animated">
+            {% block navigation %}
+                {% include 'partials/navigation.html.twig' %}
+            {% endblock %}
+        </nav>
+    </section>
 
         <section id="start">
         {% block body %}

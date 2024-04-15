@@ -2,4 +2,17 @@
 $bg-color: #ffffff;
 $pri-text-color: #3d3d3d;
 $sec-text-color: #ffffff;
-$pri-bg-color: #ffffff;
+$prim-color: #4063cb;
+
+// elements
+$header-background: $prim-color;
+$footer-background: $prim-color;
+$navigation-background: $bg-color;
+$navigation-text: $prim-color;
+$navigation-background__active: $prim-color;
+$navigation-text__active: $sec-text-color;
+
+// overlay colors
+$overlay-dark: #00000033;
+$overlay-dark-grad-from: #0000004d;
+$overlay-dark-grad-to: #00000000;
