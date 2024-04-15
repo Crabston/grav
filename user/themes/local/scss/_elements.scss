@@ -4,6 +4,8 @@
 .hero {
 	height: 30rem;
 
+	#to-start {display: none;}
+
 	.container {
 		padding: 0;
 		position: absolute;
@@ -19,17 +21,6 @@
 		text-align: center;
 		background-color: #000000B2;
 		color: #ffffff !important;
-	}
-}
-
-// overlays
-.image-overlay {
-	.overlay-dark & {
-		background-color: $overlay-dark;
-	}
-
-	.overlay-dark-gradient & {
-		background: linear-gradient(to bottom, $overlay-dark-grad-from, $overlay-dark-grad-to);
 	}
 }
 
@@ -54,6 +45,3 @@
 		color: $sec-text-color;
 	}
 }
-
-// navigation
-
