@@ -7,8 +7,8 @@ image_align: left
 ---
 
 ## Termine
-
-| Datum         | Zeit | Beschreibung        | Ort                   |
-|:--------------|:-----|:--------------------|:----------------------|
-| 21/22.10.2023 |      | Jahreskonzert       | Turnhalle Rumisberg   |
-| 16.12.2023    |      | Adventskonzert      | Kirche Oberbipp       |
+| Datum         | Zeit | Beschreibung                | Ort                 |
+|:--------------|:-----|:----------------------------|:--------------------|
+| 9.5.2024      |      | Auffahrtschilbi             | Rumisberg           |
+| 24-25.5.2024  |      | Vorbereitungskonzert BKMF   | Wynau               |
+| 15-16.6.2024  |      | Berner Kantonales Musikfest | Herzogenbuchsee     |
