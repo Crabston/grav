@@ -10,9 +10,7 @@ news_max_age_days: 14
 news_enabled_paths:
   - /tutorial
 ignores:
-  - /blog/blog-post-to-ignore
-  - /ignore-this-route
-  - '/ignore-children-of-this-route/.*'
+  - /health
 xsl_transform: true
 html_support: false
 urlset: 'http://www.sitemaps.org/schemas/sitemap/0.9'
