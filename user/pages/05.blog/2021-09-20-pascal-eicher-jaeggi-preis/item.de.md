@@ -11,4 +11,5 @@ sitemap:
 ---
 
 ![Pascal Eicher](pascal-eicher.jpg?lightbox&resize=200)
+
 Grosse Ehre für unseren Dirigenten: Pascal Eicher wird mit dem Stephan-Jaeggi-Preis ausgezeichnet. Es handelt sich dabei um die höchste Auszeichnung, die in der schweizer Blasmusikszene vergeben wird.

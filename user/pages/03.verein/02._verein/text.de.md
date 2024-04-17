@@ -3,20 +3,21 @@ title: verein
 published: true
 ---
 
+## Verein
 Unser Besetzungstyp ist nach dem Vorbild englischer Brass Bands. Zurzeit besteht unser Verein aus **25 aktiven Musikantinnen und Musikanten**.
 Mit Kirchenkonzerten, Jahreskonzert, Gartenfesten und Ständchen an verschiedensten Anlässen erfreuen wir die Bevölkerung von Rumisberg und der Nachbargemeinden, wie auch die zahlreichen Blasmusikfreunde aus nah und fern.
 
 ---
 
-## Dirigent
+### Dirigent
 
-### **Fabian Brudermann**
+#### **Fabian Brudermann**
 ![Fabian Brudermann](fabian-brudermann.jpg?lightbox)
 Fabian Brudermann ist unser Dirigent. Er engagiert sich sehr intensiv in vielen Rollen und dirigiert uns an Proben oder Ständchen.
 
 ---
 
-## Besetzung
+### Besetzung
 
 | Position       | Name              |
 |----------------|-------------------|
@@ -53,7 +54,7 @@ Fabian Brudermann ist unser Dirigent. Er engagiert sich sehr intensiv in vielen 
 
 ---
 
-## Vereinsleitung
+### Vereinsleitung
 
 - **Präsident**: Gerhard Ryf
   - **Vize-Präsident**: Fabian Brudermann
@@ -62,8 +63,6 @@ Fabian Brudermann ist unser Dirigent. Er engagiert sich sehr intensiv in vielen 
 - **Finanzen & Sponsoring**: Ayoh Anderegg
 - **Anlässe & Infrastruktur**: Mark Allemann
   - **Materialverwaltung**: Christian Tschumi
-
-### Kontaktdaten
 
 #### Gerhard Ryf
 

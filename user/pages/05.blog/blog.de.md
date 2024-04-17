@@ -19,7 +19,6 @@ taxonomy:
 feed:
   limit: 10
 hero_classes: 'text-light overlay-dark-gradient hero-large parallax'
-#body_classes: 'header-dark header-transparent'
 show_breadcrumbs: false
 show_sidebar: true
 pagination: true
@@ -30,4 +29,4 @@ display_post_summary:
   enabled: false
 ---
 
-## Herzlich willkommen bei der Musikgesellschaft Rumisberg
+## Beiträge
