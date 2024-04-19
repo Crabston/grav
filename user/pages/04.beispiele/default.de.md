@@ -15,7 +15,7 @@ content:
 display_child_page_titles: true
 ---
 
-## Beispiele
+# Beispiele
 
 - Standard Seite: <br/> [![Standard Seite](standardseite.webp?resize=600)](standardseite)
 - Modulare Seite: <br/> [![Modulare Seite](modulare-seite.webp?resize=600)](modulare-seite)

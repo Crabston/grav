@@ -8,7 +8,7 @@ sitemap:
 date: 13.10.2023
 ---
 
-## Kontakt
+# Kontakt
 
 Kontaktiere uns unter:
 

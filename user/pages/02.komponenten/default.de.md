@@ -8,7 +8,7 @@ sitemap:
 date: 19.4.2024
 ---
 
-# Überschriften
+# Komponenten
 
 !!! Hier findest du eine Übersicht über alle verfügbaren Komponenten, die du in deine Seite einfügen kannst.
 
@@ -120,40 +120,42 @@ console.log(bar());
 > <cite>- Bill Gates</cite>
 ```
 
-## ungeordnete Liste
+## Listen
 
-- list item 1
-- list item 2
-  - list item 2.1
-  - list item 2.2
-  - list item 2.3
-- list item 3
+### ungeordnete Listen
+
+- List Item 1
+- List Item 2
+  - List Item 2.1
+  - List Item 2.2
+  - List Item 2.3
+- List Item 3
 
 ```md
-- list item 1
-- list item 2
-    - list item 2.1
-    - list item 2.2
-    - list item 2.3
-- list item 3
+- List Item 1
+- List Item 2
+    - List Item 2.1
+    - List Item 2.2
+    - List Item 2.3
+- List Item 3
 ```
 
-## geordnete Liste
+### geordnete Listen
 
-1. list item 1
-1. list item 2
-    1. list item 2.1
-    1. list item 2.2
-    1. list item 2.3
-1. list item 3
+1. List Item 1
+1. List Item 2
+    1. List Item 2.1
+    1. List Item 2.2
+    1. List Item 2.3
+1. List Item 3
 
 ```md
-1. list item 1
-1. list item 2
-    1. list item 2.1
-    1. list item 2.2
-    1. list item 2.3
-1. list item 3
+1. List Item 1
+1. List Item 2
+    1. List Item 2.1
+    1. List Item 2.2
+    1. List Item 2.3
+1. List Item 3
 ```
 
 ## Tabellen
