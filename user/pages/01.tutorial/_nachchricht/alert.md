@@ -7,7 +7,7 @@ visible: true
 
 **Willkommen zum Grav Tutorial!**
 
-Mit diesen Anleitungen lernst du die und wichtigsten Funktionen von Grav CMS kennen und kannst diese bei deiner Website anwenden.
+Mit dieser Demoseite und den Tutorials zu Grav CMS lernst du die und wichtigsten Funktionen von Grav CMS kennen und kannst diese bei deiner Website anwenden.
 
 Hier sind noch weitere Links, die nützlich sein können:
 

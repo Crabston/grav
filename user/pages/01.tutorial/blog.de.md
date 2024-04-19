@@ -1,5 +1,5 @@
 ---
-title: Grav Tutorial
+title: Tutorial
 slug: tutorial
 blog_url: /tutorial
 language: de
@@ -9,7 +9,7 @@ sitemap:
 date: 13.10.2023
 taxonomy:
   tag: [Grav]
-  author: chraebsli
+  author: Crabston GmbH
 feed:
     limit: 10
 hero_classes: 'text-light title-h1h2 overlay-dark-gradient hero-large parallax'
@@ -30,13 +30,13 @@ modular_content:
 content:
     items:
         - '@self.children'
-    limit: 6
+    limit: 8
     order:
         by: folder
-        dir: asc
+        dir: dsc
     pagination: true
     url_taxonomy_filters: true
 ---
 
 # Grav Tutorial
-## Tutorials für Grav
+## Demoseite & <br> Tutorials zu Grav CMS
