@@ -5,14 +5,14 @@ language: de
 sitemap:
   changefreq: monthly
   priority: 0.8
-date: 13.10.2023
+date: 19.4.2024
 ---
+
+# Überschriften
 
 !!! Hier findest du eine Übersicht über alle verfügbaren Komponenten, die du in deine Seite einfügen kannst.
 
-!!! Eine umfangreichere Version findest du in der [Offiziellen Spectre Dokumentation](https://picturepan2.github.io/spectre/elements.html).
-
-### Überschriften
+===
 
 # H1 Überschrift
 
@@ -26,19 +26,35 @@ date: 13.10.2023
 
 ###### H6 Überschrift
 
-```html
+```md
 # H1 Überschrift
-...
+
+## H2 Überschrift
+
+### H3 Überschrift
+
+#### H4 Überschrift
+
+##### H5 Überschrift
+
+###### H6 Überschrift
 ```
 
-### Paragraph
+## Paragraph
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, dictum in vehicula sit amet, feugiat tempus tellus. Duis quis sodales risus.
 Etiam euismod ornare consequat.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, dictum in vehicula sit amet, feugiat tempus tellus. Duis quis sodales risus. Etiam euismod ornare consequat.
 
-### Markdown Elemente
+```md
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, dictum in vehicula sit amet, feugiat tempus tellus. Duis quis sodales risus.
+Etiam euismod ornare consequat.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, dictum in vehicula sit amet, feugiat tempus tellus. Duis quis sodales risus. Etiam euismod ornare consequat.
+```
+
+## Markdown Elemente
 
 **Bold** `**Bold**`
 
@@ -50,27 +66,7 @@ _Italic_ `_Italic_`
 
 > Blockquote `> Blockquote`
 
-```js
-// Code
-const foo = 'bar';
-function bar() {
-    return foo;
-}
-console.log(bar());
-```
-
-```markdown
-\```js
-// Code
-const foo = 'bar';
-function bar() {
-    return foo;
-}
-console.log(bar());
-\```
-```
-
-### HTML Text Elemente
+## HTML Text Elemente
 
 <abbr>I18N</abbr> `<abbr>`
 
@@ -88,21 +84,43 @@ Text<sub>Subscripted</sub> `<sub>`
 
 <var>x = y + 2</var> `<var>`
 
-### Blockquote
+## Code
+
+```js
+// Code
+const foo = 'bar';
+function bar() {
+    return foo;
+}
+console.log(bar());
+```
+
+```md
+\```js
+// Code
+const foo = 'bar';
+function bar() {
+    return foo;
+}
+console.log(bar());
+\```
+```
+
+## Blockquote
 
 > The advance of technology is based on making it fit in so that you don't really even notice it,
 > so it's part of everyday life.
 >
 > <cite>- Bill Gates</cite>
 
-```markdown
+```md
 > The advance of technology is based on making it fit in so that you don't really even notice it,
 > so it's part of everyday life.
 >
 > <cite>- Bill Gates</cite>
 ```
 
-### ungeordnete Liste
+## ungeordnete Liste
 
 - list item 1
 - list item 2
@@ -111,7 +129,7 @@ Text<sub>Subscripted</sub> `<sub>`
   - list item 2.3
 - list item 3
 
-```markdown
+```md
 - list item 1
 - list item 2
     - list item 2.1
@@ -120,7 +138,7 @@ Text<sub>Subscripted</sub> `<sub>`
 - list item 3
 ```
 
-### geordnete Liste
+## geordnete Liste
 
 1. list item 1
 1. list item 2
@@ -129,7 +147,7 @@ Text<sub>Subscripted</sub> `<sub>`
     1. list item 2.3
 1. list item 3
 
-```markdown
+```md
 1. list item 1
 1. list item 2
     1. list item 2.1
@@ -138,7 +156,7 @@ Text<sub>Subscripted</sub> `<sub>`
 1. list item 3
 ```
 
-### Tabellen
+## Tabellen
 
 | Name                     |           Genre           |   Veröffentlichung |
 |:-------------------------|:-------------------------:|-------------------:|
@@ -148,7 +166,17 @@ Text<sub>Subscripted</sub> `<sub>`
 | No Genre                 |                           |        7. Mai 1990 |
 | Se7en                    |   Crime, Drama, Mystery   | 22. September 1995 |
 
-### Anmerkungen
+```md
+| Name                     |           Genre           |   Veröffentlichung |
+|:-------------------------|:-------------------------:|-------------------:|
+| The Shawshank Redemption |       Crime, Drama        |   14. Oktober 1994 |
+| The Godfather            |       Crime, Drama        |      24. März 1972 |
+| Schindler's List         | Biography, Drama, History |    4. Februar 1994 |
+| No Genre                 |                           |        7. Mai 1990 |
+| Se7en                    |   Crime, Drama, Mystery   | 22. September 1995 |
+```
+
+## Anmerkungen
 
 ! Warnung
 
@@ -158,7 +186,7 @@ Text<sub>Subscripted</sub> `<sub>`
 
 !!!! Erfolg
 
-```markdown
+```md
 ! Warnung
 
 !! Fehler
@@ -168,7 +196,9 @@ Text<sub>Subscripted</sub> `<sub>`
 !!!! Erfolg
 ```
 
-### Details
+## Details
+
+!!! [Dokumentation - Shortcode Core Plugin](https://github.com/getgrav/grav-plugin-shortcode-core#detailssummary)
 
 Details sind eine gute Möglichkeit, Inhalte zu verbergen, die nicht wichtig für den Hauptfluss des Dokuments sind. Sie sind auch eine gute Möglichkeit, dem Benutzer zusätzliche Informationen ohne Verwirrung der Seite bereitzustellen.
 
@@ -176,7 +206,9 @@ Details sind eine gute Möglichkeit, Inhalte zu verbergen, die nicht wichtig fü
 Hier ist zusätzliche Informationen, die Sie durch Klicken auf die Schaltfläche aufdecken können.
 [/details]
 
-### Akkordeon
+## Akkordeon
+
+!!! [Dokumentation - Shortcode UI Plugin](https://github.com/getgrav/grav-plugin-shortcode-ui#accordion)
 
 [ui-accordion independent=false open=1]
 [ui-accordion-item title="Section 1"]
