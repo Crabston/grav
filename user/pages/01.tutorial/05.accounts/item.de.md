@@ -1,5 +1,5 @@
 ---
-title: Benutzer - Grav Tutorial
+title: Benutzer - Tutorial
 slug: accounts
 language: de
 sitemap:
@@ -7,24 +7,23 @@ sitemap:
   priority: 0.5
 date: 13.10.2023
 taxonomy:
-  tag: [Grav]
-  author: chraebsli
+  tag: [Grav, Accounts]
+  author: Nicholas Krebs
 ---
 
-## Benutzer Tutorial
+!!! Wie du Benutzer & Gruppen erstellst, bearbeitest und löschst.
 
-!!! Hier erfährst du, wie du Benutzer erstellst, bearbeitest und löscht.
+===
 
-1. Navigiere zu den Benutzer (rot markiert)
-2. Du solltest nun die Benutzer sehen (orange markiert):
+1. Navigiere zu den Benutzer _(rot markiert)_
+2. Du solltest nun die Benutzer sehen _(orange markiert)_:
 
-!!! Zu den Gruppen kannst du über die Navigationsleiste oben (grün markiert) navigieren.
-
-![Screenshot Benutzer](users.webp)
+!!! Zu den Gruppen kannst du über die Navigationsleiste oben (grün markiert) navigieren:
+![Screenshot Benutzer](benutzer.webp?lightbox)
 
 ### Benutzer erstellen {#create-user}
 
-![Screenshot Benutzer erstellen](create-user.webp)
+![Screenshot Benutzer erstellen](benutzer-bearbeiten.webp?lightbox)
 
 Du kannst einen Benutzer erstellen, indem du auf den Knopf «Benutzer erstellen» klickst (oben rechts, pink markiert). Dann kannst du folgende Angaben machen:.
 
@@ -60,7 +59,7 @@ Um einen Benutzer zu löschen, klicke auf das Löschsymbol neben dem Benutzer, d
 
 ### Gruppe erstellen {#create-group}
 
-![Screenshot Gruppe erstellen](create-group.webp)
+![Screenshot Gruppe erstellen](benutzer-gruppen.webp?lightbox)
 
 1. Navigiere zu den Gruppen
 2. Klicke auf den Knopf «Erstellen» (oben rechts, pink markiert)

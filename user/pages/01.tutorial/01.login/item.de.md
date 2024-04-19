@@ -1,5 +1,5 @@
 ---
-title: Login - Grav Tutorial
+title: Login - Tutorial
 slug: login
 language: de
 sitemap:
@@ -7,23 +7,20 @@ sitemap:
   priority: 0.5
 date: 13.10.2023
 taxonomy:
-  tag: [Grav]
-  author: chraebsli
+  tag: [ Grav, Login ]
+  author: Nicholas Krebs
 ---
 
-## Login Tutorial
+!!! Wie du dich beim Grav Admin Panel anmeldest
 
-!!! Wie man sich beim Grav Admin Panel anmeldet.
+===
 
-![Screenshot Login Seite](login.webp)
+1. Öffne die Login Seite deiner Website ([/admin](/admin))
+  ![Screenshot Login Seite](login.webp?lightbox)
+2. Gib deinen Benutzernamen oder E-Mail Adresse ein _(rot markiert)_
+3. Gib dein Passwort ein _(grün markiert)_
+4. Klicke auf den Login Button _(orange markiert)_
 
-1. Öffne die Login Seite ([yoursite.com/admin](https://yoursite.com/admin))
-2. Gib deinen Benutzernamen oder Email Adresse ein (rot markiert)
-3. Gib dein Passwort ein (grün markiert)
-4. Klicke auf den Login Button (orange markiert)
+!!!! ![Screenshot Dashboard](dashboard.webp?lightbox&classes=caption,caption-left "Wenn du die richtigen Daten eingegeben hast, wirst du zum Dashboard weitergeleitet.")
 
-!!!! Du bist nun im Admin Panel eingeloggt und siehst folgende Seite:
-!!!! ![Screenshot Admin Panel](dashboard.webp)
-
-!! Solltest du falsche Daten eingegeben haben, siehst du folgende Fehlermeldung:
-!! ![Screenshot Login Fehlermeldung](login-error.webp)
+!! ![Screenshot Login Fehlermeldung](login-error.webp?lightbox&classes=caption,caption-left "Falls du die falschen Daten eingegeben hast, wird dir eine Fehlermeldung angezeigt. Versuche es erneut.")

@@ -1,5 +1,5 @@
 ---
-title: Seiten - Grav Tutorial
+title: Seiten - Tutorial
 slug: seiten
 language: de
 sitemap:
@@ -7,28 +7,29 @@ sitemap:
   priority: 0.5
 date: 13.10.2023
 taxonomy:
-  tag: [Grav]
-  author: chraebsli
+  tag: [Grav, Seiten]
+  author: Nicholas Krebs
 ---
 
-## Seiten Tutorial
+!!! Wie du Seiten erstellen, bearbeiten und löschen kannst.  
+!!! Welche Einstellungen für Seiten vorgenommen werden können.
 
-!!! Hier erfährst du, wie du Seiten erstellst, bearbeitest und löscht. Zudem erfährst du noch, welche Einstellungen du für Seiten vornehmen kannst.
+===
 
-1. Navigiere zu den Seiten (rot markiert)
-2. Du solltest nun die Seiten sehen:
-
-![Screenshot Seiten](pages.webp)
+1. Melde dich im Admin Panel an
+2. Navigiere zu den Seiten
+3. Jetzt siehst du die Seitenübersicht:
+![Screenshot Seiten](seiten.webp?lightbox)
 
 ### Übersicht
 
-In der linken Spalte (orange markiert) befinden sich alle Seiten und Ordner auf 1. Ebene.
+In der linken Spalte _(rot markiert)_ befinden sich alle Seiten und Ordner auf 1. Ebene.
 
-In der mittleren Spalte (grün markiert) findest du die Seiten und Ordner auf 2. Ebene.
+In der mittleren Spalte _(grün markiert)_ findest du die Seiten und Ordner auf 2. Ebene.
 
-In der rechten Spalte (violett markiert) findest du die Seiten und Ordner auf 3. Ebene.
+In der rechten Spalte _(orange markiert)_ findest du die Seiten und Ordner auf 3. Ebene.
 
-Oben rechts (türkis markiert) kannst du eine Seite, einen Ordner oder ein Modul erstellen.
+Oben rechts _(türkis markiert)_ kannst du eine Seite, einen Ordner oder ein Modul erstellen.
 
 #### Aktionen
 
@@ -61,7 +62,7 @@ Weitere Schritte:
 
 Um eine Seite zu bearbeiten, klicke ein Element in der Seitenübersicht an. Du kannst nun die Seite bearbeiten.
 
-![Screenshot Seite bearbeiten](edit-page.webp)
+![Screenshot Seite bearbeiten](seite-bearbeiten.webp?lightbox)
 
 In der Navigation oben (pink markiert) kannst du zwischen Inhalt und verschiedenen Optionen wechseln.
 
@@ -84,7 +85,7 @@ Es gibt verschiedene Einstellungen, die du für ein Element vornehmen kannst.
 
 In den Optionen findest du gängige Einstellungen, die du für eine Seite vornehmen kannst. Diese sind:
 
-![Screenshot Optionen](options.webp)
+![Screenshot Optionen](seite-optionen.webp?lightbox)
 
 | Option                   | Beschreibung                                                       |
 |:------------------------ |:------------------------------------------------------------------ |
@@ -98,7 +99,7 @@ In den Optionen findest du gängige Einstellungen, die du für eine Seite vorneh
 
 #### Erweiterte Optionen
 
-![Screenshot erweiterte Optionen](advanced-options.webp)
+![Screenshot erweiterte Optionen](seite-erweitert.webp?lightbox)
 
 | Option                   | Beschreibung                                                    |
 |:------------------------ |:--------------------------------------------------------------- |
