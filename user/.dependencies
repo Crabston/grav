@@ -34,7 +34,7 @@ git:
     featherlight:
         url: https://github.com/getgrav/grav-plugin-featherlight
         path: user/plugins/featherlight
-        branch: master
+        branch: develop
     feed:
         url: https://github.com/getgrav/grav-plugin-feed
         path: user/plugins/feed
