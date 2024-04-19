@@ -1,75 +1,78 @@
 ---
 title: Benutzer - Tutorial
 slug: accounts
-language: de
 sitemap:
   changefreq: yearly
   priority: 0.5
-date: 13.10.2023
+date: 19.4.2024
 taxonomy:
-  tag: [Grav, Accounts]
-  author: Nicholas Krebs
+  tag: [Grav, Account]
 ---
 
 !!! Wie du Benutzer & Gruppen erstellst, bearbeitest und löschst.
 
 ===
 
-1. Navigiere zu den Benutzer _(rot markiert)_
-2. Du solltest nun die Benutzer sehen _(orange markiert)_:
+1. Melde dich im Admin Panel an
+2. Navigiere zu den Benutzerkonten _(orange markiert)_
+3. Du solltest nun die Benutzer sehen _(grün markiert)_:
+![Screenshot Benutzerübersicht](benutzer-übersicht.webp?lightbox)
+4. Zu den Gruppen kannst du über die Navigationsleiste oben _(rot markiert)_ navigieren:
 
-!!! Zu den Gruppen kannst du über die Navigationsleiste oben (grün markiert) navigieren:
-![Screenshot Benutzer](benutzer.webp?lightbox)
+## Benutzer
+
+Benutzer sind Personen, die Zugriff auf das Admin Panel haben. Hier kannst du Benutzer erstellen, bearbeiten und löschen.
 
 ### Benutzer erstellen {#create-user}
 
-![Screenshot Benutzer erstellen](benutzer-bearbeiten.webp?lightbox)
+Du kannst einen Benutzer erstellen, indem du auf den Knopf «Benutzer erstellen» klickst (oben rechts). Dann kannst du folgende Angaben machen:
 
-Du kannst einen Benutzer erstellen, indem du auf den Knopf «Benutzer erstellen» klickst (oben rechts, pink markiert). Dann kannst du folgende Angaben machen:.
+![Screenshot Benutzer erstellen](benutzer-einzelansicht.webp?lightbox)
 
-- `Benutzername*`
-- `E-Mail*`
-- `Passwort*`
-- `Voller Name`
-- `Titel`
-- `Sprache`
-- `Gruppen`
-- `Zugriffsrechte`
+- `Benutzername*`: wird für die Anmeldung verwendet
+- `E-Mail*`: zum Zurücksetzen des Passworts/ Anmeldung
+- `Passwort*`: mindestens 8 Zeichen
+- `Voller Name`: Name des Benutzers
+- `Titel`: zum Beispiel Funktion (Admin, Content Creator, ...)
+- `Sprache`: bevorzugte Sprache
+- `Gruppen`: Zuordnung zu Gruppen für Zugriffsrechte
+- `Zugriffsrechte`: Rechte für den Benutzer
 
 [size=20]mit `*` gekennzeichnete Angaben sind auszufüllen[/size]
-
-Weitere Schritte:
-
-- [Benutzer bearbeiten](#benutzer-bearbeiten)
-- [Benutzer löschen](#benutzer-löschen)
-- [Gruppe erstellen](#gruppe-erstellen)
 
 ### Benutzer bearbeiten {#edit-user}
 
 Um einen Benutzer zu bearbeiten, musst du Folgendes tun:
 
-1. Klicke auf den Benutzer, den du bearbeiten möchtest, in der Benutzerübersicht.
+1. Klicke auf den Benutzer in der Benutzerübersicht, den du bearbeiten möchtest.
 2. Nun kannst du die Benutzerdaten bearbeiten.
+3. Klicke auf den Knopf «Speichern», um die Änderungen zu übernehmen.
 
 ### Benutzer löschen {#delete-user}
 
 Um einen Benutzer zu löschen, klicke auf das Löschsymbol neben dem Benutzer, den du löschen möchtest.
 
+!! Diese Aktion kann nicht rückgängig gemacht werden.
+
 ---
+
+## Gruppen
+
+Gruppen sind Sammlungen von Benutzern, die Zugriffsrechte gemeinsam haben. Hier kannst du Gruppen erstellen, bearbeiten und löschen.
 
 ### Gruppe erstellen {#create-group}
 
-![Screenshot Gruppe erstellen](benutzer-gruppen.webp?lightbox)
+![Screenshot Gruppenübersicht](gruppen-übersicht.webp?lightbox)
 
 1. Navigiere zu den Gruppen
-2. Klicke auf den Knopf «Erstellen» (oben rechts, pink markiert)
+2. Klicke auf den Knopf «Erstellen» _(oben rechts)_
 3. Gib folgende Angaben ein:
 
-- `Gruppename*`
-- `Anzeigename`
-- `Beschreibung`
-- `Aktiviert`
-- `Zugriffsrechte`
+- `Gruppename*`: wird bei der Zuweisung von Benutzern verwendet
+- `Anzeigename`: Name der Gruppe
+- `Beschreibung`: kurze Beschreibung der Gruppe
+- `Aktiviert`: ob die Gruppe aktiviert ist
+- `Zugriffsrechte`: Rechte für die Gruppe
 
 [size=20]mit `*` gekennzeichnete Angaben sind auszufüllen[/size]
 
@@ -77,10 +80,12 @@ Um einen Benutzer zu löschen, klicke auf das Löschsymbol neben dem Benutzer, d
 
 Um eine Gruppe zu bearbeiten, musst du Folgendes tun:
 
-1. Navigiere zu den Gruppen.
-2. Klicke auf die Gruppe, die du bearbeiten möchtest, in der Gruppenübersicht.
-3. Jetzt kannst du die Gruppendaten bearbeiten.
+1. Klicke auf die Gruppe in der Gruppenübersicht, die du bearbeiten möchtest.
+2. Nun kannst du die Gruppendaten bearbeiten.
+3. Klicke auf den Knopf «Speichern», um die Änderungen zu übernehmen.
 
 ### Gruppe löschen {#delete-group}
 
-Um eine Gruppe zu löschen, klicke auf das Löschsymbol neben der Gruppe, den du löschen willst.
+Um eine Gruppe zu löschen, klicke auf das Löschsymbol neben der Gruppe, die du löschen willst.
+
+!! Diese Aktion kann nicht rückgängig gemacht werden.

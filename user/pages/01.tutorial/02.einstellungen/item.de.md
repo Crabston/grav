@@ -1,14 +1,12 @@
 ---
 title: Einstellungen - Tutorial
 slug: einstellungen
-language: de
 sitemap:
   changefreq: yearly
   priority: 0.5
-date: 13.10.2023
+date: 19.4.2024
 taxonomy:
   tag: [ Grav, Einstellungen ]
-  author: Nicholas Krebs
 ---
 
 !!! Wie du die Einstellungen von Grav anpassen kannst
@@ -23,7 +21,7 @@ taxonomy:
 5. Passe die Einstellungen nach deinen Wünschen an
 6. Klicke anschliessend auf den Speichern Knopf oben rechts
 
-### Einstellungskategorien {#kategorien}
+## Einstellungskategorien {#kategorien}
 
 Es gibt folgende Einstellungskategorien:
 
@@ -33,23 +31,30 @@ Es gibt folgende Einstellungskategorien:
 - [Sicherheit](#security)
 - [Info](#info)
 
-#### System {#system}
-In der Systemeinstellungskategorie findest du Einstellungen, die das System betreffen. Dies betrifft unter anderem die Sprache, die Zeitzone, das Theme, die Caching Einstellungen und weitere.
+### System {#system}
 
-Diese Einstellungen sind für die meisten Benutzer nicht relevant, da sie nur selten bis garnicht geändert werden müssen.
+Die Systemeinstellungen betreffen Einstellungen, die das System direkt betreffen. Dazu gehören unter anderem Inhaltseinstellungen wie Sprache, Datum & Zeitzone, Markdown Konfigurationen und weitere. Zudem gibt es auch Optionen für Theme, Caching, Debugger, Fehlerbehandlung und vieles mehr.
 
-#### Site {#site}
-Diese Einstellungskategorie beinhaltet Einstellungen, die die Seite direkt betreffen. Dazu gehören insbesondere die Seitentitel, die Beschreibung, die Keywords, die URL, Website Sprache, ...
+Diese Einstellungen sind für die meisten Benutzer jedoch nicht relevant, da sie nur selten bis gar nicht geändert werden müssen. In der Regel werden diese Einstellungen nur einmal beim Einrichten der Seite angepasst.
 
-Dies sind die wichtigsten Einstellungen, die du ändern musst, um deine Seite anzupassen und zu personalisieren.
+### Site {#site}
 
-#### Medien {#media}
-In dieser Einstellungskategorie sind alle Medientypen aufgelistet, die du in deiner Seite verwenden kannst. Du kannst hier die Dateiendungen, die MIME-Typen und weitere Optionen für jeden Medientyp einstellen.
+DDie Seiteneinstellungen beinhalten Einstellungen, die die Seite direkt betreffen. Dazu gehören insbesondere Seitentitel, Beschreibung, Standardautor, Keywords, Standardsprache, ...
 
-#### Sicherheit {#security}
-Hier befinden sich Einstellungen, die die Sicherheit der Seite betreffen. Hier wird auch festgelegt, welche Dateien und HTML Tags gesperrt sind.
+Diese Einstellungen sind schon relevanter für die meisten Benutzer. Jedoch müssen auch diese Einstellungen nur selten geändert werden.
 
-#### Info {#info}
-Auf dieser Seite findest du alle Informationen über PHP und die PHP Erweiterungen, die auf deinem Server installiert sind.
+### Medien {#media}
 
-Diese Informationen sind meistens nur für Fehlerbehebungszwecke relevant. In der Regel brauchst du diese jedoch nicht.
+In dieser Einstellungskategorie sind alle Dateiendungen aufgelistet, die verwendet werden können. Diese beinhalten die MIME-Typen und weitere Optionen für jeden Medientyp.
+
+Diese Einstellungen sind meistens nur für fortgeschrittene Benutzer relevant, die spezielle Anforderungen an die Medienverwaltung haben.
+
+### Sicherheit {#security}
+
+Hier befinden sich Einstellungen, die die Sicherheit der Website beeinträchtigen. Als Beispiel wird hier festgelegt, welche Dateiendungen und HTML Tags gesperrt sind.
+
+Diese Einstellungen sollten nur geändert werden, wenn du weisst, was du tust. Ansonsten kann es zu Sicherheitslücken kommen.
+
+### Info {#info}
+
+Auf dieser Seite befinden sich ausschliesslich Informationen zum Betriebssystem und dessen Konfiguration. Diese Informationen sind in der Regel nur für Fehlerbehebungszwecke relevant.

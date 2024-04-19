@@ -6,7 +6,7 @@ language: de
 sitemap:
   changefreq: monthly
   priority: 1
-date: 13.10.2023
+date: 19.4.2024
 taxonomy:
   tag: [Grav]
   author: Crabston GmbH

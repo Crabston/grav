@@ -1,14 +1,12 @@
 ---
 title: Seiten - Tutorial
 slug: seiten
-language: de
 sitemap:
   changefreq: yearly
   priority: 0.5
-date: 13.10.2023
+date: 19.4.2024
 taxonomy:
   tag: [Grav, Seiten]
-  author: Nicholas Krebs
 ---
 
 !!! Wie du Seiten erstellen, bearbeiten und löschen kannst.  
@@ -17,106 +15,124 @@ taxonomy:
 ===
 
 1. Melde dich im Admin Panel an
-2. Navigiere zu den Seiten
+2. Navigiere zu den Seiten _(orange markiert)_
 3. Jetzt siehst du die Seitenübersicht:
-![Screenshot Seiten](seiten.webp?lightbox)
+![Screenshot Seitenübersicht](seiten-übersicht.webp?lightbox)
 
-### Übersicht
+## Übersicht
 
-In der linken Spalte _(rot markiert)_ befinden sich alle Seiten und Ordner auf 1. Ebene.
+Die 3 Spalten zeigen dir die Seiten und Ordner auf verschiedenen Ebenen, 1. Ebene _(rot markiert)_, 2. Ebene _(grün markiert)_ und 3. Ebene _(blau markiert)_. Die Ebenen repräsentieren die Hierarchie der Seiten. Je nachdem können weitere Ebenen hinzukommen.
 
-In der mittleren Spalte _(grün markiert)_ findest du die Seiten und Ordner auf 2. Ebene.
+1. Ebene: Startseite, Hauptseiten
+2. Ebene: Unterseiten, Module von Hauptseiten
+3. Ebene: Unterseiten von Unterseiten, Module von Unterseiten
+4. Ebene: ...
 
-In der rechten Spalte _(orange markiert)_ findest du die Seiten und Ordner auf 3. Ebene.
+Oben rechts _(pink markiert)_ kannst du eine Blogseite, Standardseite oder modulspezifische Komponenten erstellen. Je nach Konfiguration der Seite sind verschiedene Optionen verfügbar.
 
-Oben rechts _(türkis markiert)_ kannst du eine Seite, einen Ordner oder ein Modul erstellen.
+### Legende Symbole
 
-#### Aktionen
+![Screenshot Seitenübersicht](seiten-übersicht.webp?lightbox)
 
-Die mit einem Haus markierte Seite ist die Startseite. Blaue Symbole mit einem Dokument und einem Stift sind Seiten. Violette Symbole mit einem Baustein sind Module.
+| Komponente  | Beschreibung  | Bedeutung                |
+|:------------|:--------------|:-------------------------|
+| Symbol      | 🏠 _Haus_     | Startseite               |
+|             | 📝 _Dokument_ | Seite                    |
+|             | 🧱 _Baustein_ | Modul                    |
+| Hintergrund | 🟦 _blau_     | via URL zugänglich       |
+|             | ⬜ _grau_      | nicht via URL zugänglich |
+| Badge       | 🟢 _grün_     | veröffentlichte Seite    |
+|             | 🔴 _rot_      | unveröffentlichte Seite  |
 
-Wenn ein grüner Punkt angezeigt wird, bedeutet dies, dass die Seite veröffentlicht ist. Wenn ein roter Punkt angezeigt wird, bedeutet dies, dass die Seite nicht veröffentlicht ist.
+### Legende Optionen
 
-Um das Element zu öffnen, klicke darauf. Um Optionen zu öffnen, klicke auf die drei Punkte. Um die untergeordneten Elemente zu öffnen, klicke auf den Pfeil rechts neben dem Element. Danach kannst du zur nächsten Ebene navigieren.
+![Seitenlegende](seiten-legende.webp?lightbox)
 
-In den Optionen kannst du die Seite bearbeiten, duplizieren und löschen. Zudem kannst du eine Vorschau der Seite öffnen.
+| P  | Beschreibung              |
+|:--:|:--------------------------|
+| 1  | Optionen für Seite öffnen |
+| 2  | Seitenvorschau in Admin   |
+| 3  | Seite bearbeiten          |
+| 4  | Seite duplizieren         |
+| 5  | Seite löschen             |
+| 6  | Info Tags                 |
+| 7  | verfügbare Sprachen       |
+| 8  | Route/ Pfad               |
+| 9  | genutzte Vorlage          |
+| 10 | zuletzt bearbeitet        |
+| 11 | Unterseiten anzeigen      |
 
-### Seite erstellen {#create-page}
+## Seite erstellen {#create-page}
 
 Du kannst eine neue Seite erstellen, indem du entweder den Knopf «Neue Seite erstellen» drückst oder eine Seite duplizierst. Dann musst du folgende Angaben machen:
 
-- `Seitentitel*`: Name der Seite
-- `Ordnername*`: Name des Ordners, in dem die Seite erstellt werden soll
+- `Seitentitel*`: Name der Seite der angezeigt wird
+- `Ordnername*`: Name des Ordners, in dem die Seite erstellt werden soll; Pfad der Seite
 - `Übergeordnete Seite`: Übergeordnete Seite, in der die Seite erstellt werden soll
-- `Seiten Template`: Template, das für die Seite verwendet werden soll
+- `Seiten Template`: Vorlage, die für die Seite verwendet werden soll
 - `Veröffentlicht/Sichtbar*`: Ob die Seite veröffentlicht sein soll oder nicht
 
 [size=20]mit `*` gekennzeichnete Angaben sind auszufüllen[/size]
 
-Weitere Schritte:
-
-- [Seite bearbeiten](#seite-bearbeiten)
-- [Seiteneinstellungen](#seiteneinstellungen)
-
-### Seite bearbeiten {#edit-page}
+## Seite bearbeiten {#edit-page}
 
 Um eine Seite zu bearbeiten, klicke ein Element in der Seitenübersicht an. Du kannst nun die Seite bearbeiten.
 
 ![Screenshot Seite bearbeiten](seite-bearbeiten.webp?lightbox)
 
-In der Navigation oben (pink markiert) kannst du zwischen Inhalt und verschiedenen Optionen wechseln.
+In der Navigation oben _(rot markiert)_ kannst du zwischen Inhalt und verschiedenen Optionen wechseln.
 
-In der Mitte (grün markiert) kannst du den Inhalt der Seite bearbeiten. Am oberen Rand des Feldes hast du Formatierungsoptionen zur Verfügung, um Text entsprechend zu formatieren. Andernfalls kannst du auch Markdown verwenden. Die Formatierungsoptionen/ Komponenten findest du [hier](/komponenten).  
-Um eine grobe Vorschau der Seite zu sehen, klicke auf das Auge oben links.
+In der Mitte _(grün markiert)_ kannst du den Inhalt der Seite bearbeiten. Am oberen Rand des Feldes hast du Formatierungsoptionen zur Verfügung, um den Text entsprechend zu formatieren. Andernfalls kannst du auch Markdown verwenden. Die Formatierungsoptionen/ Komponenten findest du [hier](/komponenten).
+Um eine grobe Vorschau der Seite zu sehen, klicke auf das Auge oben links. So erkennst du, ob es Fehler in Markdown gibt. Erweiterte Komponenten werden nicht angezeigt.
 
-Zu unterst (rot markiert) kannst du Bilder, Videos und andere Medien hochladen.
+Zu unterst _(orange markiert)_ kannst du Bilder, Videos und andere Medien hochladen.
 
-### Seite löschen {#delete-page}
+## Seite löschen {#delete-page}
 
 Um eine Seite zu löschen, klicke auf die drei Punkte neben dem Element in der Seitenübersicht. Klicke dann auf «Löschen». Du wirst gefragt, ob du die Seite wirklich löschen möchtest. Klicke auf «Löschen».
 
-!! Änderungen können nicht rückgängig gemacht werden.
+!! Änderungen können nicht rückgängig gemacht werden
 
-### Seiteneinstellungen {#page-settings}
+## Seiteneinstellungen {#page-settings}
 
 Es gibt verschiedene Einstellungen, die du für ein Element vornehmen kannst.
 
-#### Optionen
+### Optionen
 
-In den Optionen findest du gängige Einstellungen, die du für eine Seite vornehmen kannst. Diese sind:
+In den Optionen findest du gängige Einstellungen, die du für eine Seite vornehmen kannst. Diese sind in den meisten Fällen relevant.
 
 ![Screenshot Optionen](seite-optionen.webp?lightbox)
 
 | Option                   | Beschreibung                                                       |
-|:------------------------ |:------------------------------------------------------------------ |
+|:-------------------------|:-------------------------------------------------------------------|
 | `Veröffentlicht`         | Ob die Seite veröffentlicht sein soll oder nicht                   |
 | `Datum`                  | Datum, mit dem die Seite versehen ist                              |
 | `Veröffentlichungsdatum` | Datum, ab dem die Seite automatisch veröffentlicht wird            |
 | `Ablaufdatum`            | Datum, ab dem die Seite automatisch nicht mehr veröffentlicht wird |
 | `Metadaten`              | Metadaten, die für die Seite verwendet werden sollen               |
-| `Category`               | Kategorie, die für die Seite verwendet werden soll                 |
-| `Tags`                   | Tags, die für die Seite verwendet werden sollen                    |
+| `Category` _(Blog)_      | Kategorie, die für die Seite verwendet werden soll                 |
+| `Tags` _(Blog)_          | Tags, die für die Seite verwendet werden sollen                    |
 
-#### Erweiterte Optionen
+### Erweiterte Optionen
 
-![Screenshot erweiterte Optionen](seite-erweitert.webp?lightbox)
+Die erweiterten Optionen bieten weitere Einstellungen, die jedoch für die meisten Benutzer nicht relevant sind.
 
-| Option                   | Beschreibung                                                    |
-|:------------------------ |:--------------------------------------------------------------- |
-| `Ordnername`             | Name des Ordners, in dem die Seite erstellt werden soll         |
-| `Numerischer Präfix`     | Numerischer Präfix, der für den Ordner verwendet werden soll    |
-| `Sortierung`             | Sortierung, die verwendet werden soll                           |
-| `Übergeordnet`           | Übergeordnete Seite, in der die Seite erstellt werden soll      |
-| `Seiten Template`        | Template, das für die Seite verwendet werden soll               |
-| `Body CSS Klassen`       | CSS-Klassen, die für den Body der Seite verwendet werden sollen |
-| `Slug`                   | URL, an der die Seite erreichbar sein soll                      |
+![Screenshot erweiterte Optionen](seite-erweiterte-optionen.webp?lightbox)
 
-Die weiteren Optionen sind nicht relevant für die meisten Benutzer.
+| Option               | Beschreibung                                                    |
+|:---------------------|:----------------------------------------------------------------|
+| `Ordnername`         | Name des Ordners, in dem die Seite erstellt werden soll         |
+| `Numerischer Präfix` | Numerischer Präfix, der für den Ordner verwendet werden soll    |
+| `Sortierung`         | Sortierung, die verwendet werden soll                           |
+| `Übergeordnet`       | Übergeordnete Seite, in der die Seite erstellt werden soll      |
+| `Seiten Template`    | Vorlage, die für die Seite verwendet werden soll                |
+| `Body CSS Klassen`   | CSS-Klassen, die für den Body der Seite verwendet werden sollen |
+| `Slug`               | URL, an der die Seite erreichbar sein soll                      |
 
-### Module {#modules}
+## Module {#modules}
 
-Module sind Elemente, die du auf einer Seite einfügen kannst. Dies sind zum Beispiel das Hero-Modul (Teaser Bild mit Überschrift) und das Main-Modul (Hauptteil). Die Reihenfolge der Module kannst du in den Einstellungen der Seite ändern.
+Module werden verwendet, um auf einer Seite verschiedene Komponenten oder Abschnitte zu erstellen. Sie funktionieren grundsätzlich wie normale Seiten, was die Bearbeitung und die Optionen und Aktionsmöglichkeiten betrifft. 
 
-Module funktionieren grundsätzlich wie normale Seiten, was die Bearbeitung und die Optionen und Aktionsmöglichkeiten betrifft.
+Der Unterschied besteht darin, anders als bei normalen Seiten verschiedene Module auf einer Seite zu haben. Einzelne Module können auch temporär ausgeblendet werden, ohne sie zu löschen. Danach können sie wieder eingeblendet werden.
 
-Sie können verwendet werden, um auf einer Seite verschiedene Komponenten oder Abschnitte zu erstellen. Sie sind auch praktisch, wenn man temporär Inhalte auf einer Seite ausblenden möchte, ohne sie zu löschen. Danach kann man diese wieder einblenden.
+So können längere oder komplexere Seiten in mehrere Module aufgeteilt werden. Dies erleichtert die Bearbeitung und Übersichtlichkeit der Seite.
