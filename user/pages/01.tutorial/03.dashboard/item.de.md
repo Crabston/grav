@@ -1,12 +1,13 @@
 ---
-title: Dashboard - Tutorial
-slug: dashboard
+title: Dashboard – Grundlagen
+slug: grundlagen/dashboard
 sitemap:
   changefreq: yearly
   priority: 0.5
 date: 19.4.2024
 taxonomy:
-  tag: [ Grav, Dashboard ]
+  #category: Grundlagen
+  tag: [ Grundlagen, Dashboard ]
 ---
 
 !!! Wie du das Dashboard von Grav benutzen kannst und welche Informationen du dort findest

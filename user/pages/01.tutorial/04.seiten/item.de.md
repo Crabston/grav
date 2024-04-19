@@ -1,12 +1,13 @@
 ---
-title: Seiten - Tutorial
-slug: seiten
+title: Seiten – Grundlagen
+slug: grundlagen/seiten
 sitemap:
   changefreq: yearly
   priority: 0.5
 date: 19.4.2024
 taxonomy:
-  tag: [Grav, Seiten]
+  #category: Grundlagen
+  tag: [ Grundlagen, Seiten ]
 ---
 
 !!! Wie du Seiten erstellen, bearbeiten und löschen kannst.  

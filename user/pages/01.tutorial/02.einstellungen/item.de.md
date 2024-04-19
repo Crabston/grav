@@ -1,12 +1,13 @@
 ---
-title: Einstellungen - Tutorial
-slug: einstellungen
+title: Einstellungen – Grundlagen
+slug: grundlagen/einstellungen
 sitemap:
   changefreq: yearly
   priority: 0.5
 date: 19.4.2024
 taxonomy:
-  tag: [ Grav, Einstellungen ]
+  #category: Grundlagen
+  tag: [ Grundlagen, Einstellungen ]
 ---
 
 !!! Wie du die Einstellungen von Grav anpassen kannst

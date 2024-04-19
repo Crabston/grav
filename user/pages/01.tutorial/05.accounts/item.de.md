@@ -1,12 +1,13 @@
 ---
-title: Benutzer - Tutorial
-slug: accounts
+title: Benutzer – Grundlagen
+slug: grundlagen/accounts
 sitemap:
   changefreq: yearly
   priority: 0.5
 date: 19.4.2024
 taxonomy:
-  tag: [Grav, Account]
+  #category: Grundlagen
+  tag: [ Grundlagen, Account ]
 ---
 
 !!! Wie du Benutzer & Gruppen erstellst, bearbeitest und löschst.
