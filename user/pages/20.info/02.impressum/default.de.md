@@ -4,7 +4,7 @@ language: de
 body_classes: imprint
 sitemap:
   changefreq: yearly
-  priority: 0.1
+  priority: 0.4
 date: 13.10.2023
 ---
 

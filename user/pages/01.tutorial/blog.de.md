@@ -5,7 +5,7 @@ blog_url: /tutorial
 language: de
 sitemap:
   changefreq: monthly
-  priority: 0.7
+  priority: 1
 date: 13.10.2023
 taxonomy:
   tag: [Grav]

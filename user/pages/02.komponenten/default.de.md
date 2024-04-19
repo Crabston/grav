@@ -4,7 +4,7 @@ slug: komponenten
 language: de
 sitemap:
   changefreq: monthly
-  priority: 0.7
+  priority: 0.8
 date: 13.10.2023
 ---
 
