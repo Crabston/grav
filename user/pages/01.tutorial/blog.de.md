@@ -1,5 +1,5 @@
 ---
-title: Tutorial
+title: Tutorials
 slug: tutorial
 blog_url: /tutorial
 language: de
@@ -8,7 +8,7 @@ sitemap:
   priority: 1
 date: 19.4.2024
 taxonomy:
-  category: [ Grundlagen]
+  category: [ Grundlagen ]
   tag: [ Grundlagen ]
   author: Crabston GmbH
 feed:
