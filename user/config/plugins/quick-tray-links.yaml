@@ -12,6 +12,6 @@ links:
     external: true
   -
     icon: 'fa fa-envelope'
-    link: 'mailto://support@crabston.dev'
+    link: 'mailto:support@crabston.dev'
     tooltip: 'Email Crabston Helpdesk'
     external: true
