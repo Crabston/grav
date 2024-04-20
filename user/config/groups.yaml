@@ -1,3 +1,10 @@
++private:
+  access:
+    site:
+      login: true
+  enabled: true
+  readableName: Private Pages
+  description: 'Kann sich bei privaten Seiten anmelden'
 +default:
   access:
     site:
@@ -9,7 +16,7 @@
         list: true
   enabled: true
   readableName: Default
-  description: 'Standard Benutzergruppe für alle Benutzer'
+  description: 'Standard Benutzergruppe für Admin Panel Benutzer'
 statistics:
   access:
     admin:
