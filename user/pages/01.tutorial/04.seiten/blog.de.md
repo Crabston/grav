@@ -1,13 +1,13 @@
 ---
-title: Grundlagen
-slug: grundlagen
+title: Seiten
+slug: seiten
 sitemap:
   changefreq: monthly
   priority: 0.8
-date: 19.4.2024
+date: 20.4.2024
 taxonomy:
-  category: [ Grundlagen ]
-  tag: [ Grundlagen ]
+  category: [ Seiten ]
+  tag: [ Seiten ]
   author: Crabston GmbH
 #hero_classes: 'text-light title-h1h2 overlay-dark-gradient hero-large parallax'
 hero_classes: 'text-dark title-h1h2 overlay-dark-gradient'
@@ -25,9 +25,9 @@ content:
 hide_summary: true
 ---
 
-Die Grundlagen von Grav sind die Basis für das Verständnis des CMS. In diesen Tutorials lernen Sie die wichtigsten Konzepte und Funktionen kennen, die Sie für die Arbeit mit Grav benötigen.
+Seiten sind die Hauptbestandteile einer Website. Sie können beliebig viele Seiten erstellen und diese in einer beliebigen Hierarchie anordnen. Seiten können auch in mehreren Sprachen erstellt werden.
 
 ===
 
-# Grav Tutorial - Grundlagen
-## Grundlagen zu Grav CMS
+# Grav Tutorial - Seiten
+## Seiten in Grav CMS

@@ -30,7 +30,7 @@ modular_content:
     dir: dsc
 content:
   items:
-    - '@self.children'
+    - '@self.descendants'
   limit: 8
   order:
     by: folder
