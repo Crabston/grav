@@ -1,13 +1,14 @@
 ---
 title: Login – Grundlagen
-slug: grundlagen/login
+slug: login
 sitemap:
   changefreq: yearly
   priority: 0.5
 date: 19.4.2024
 taxonomy:
-  #category: Grundlagen
+  category: Grundlagen
   tag: [ Grundlagen, Login ]
+header_image: login.webp
 ---
 
 !!! Wie du dich beim Grav Admin Panel anmeldest

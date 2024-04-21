@@ -1,12 +1,11 @@
 ---
 title: Einstellungen – Grundlagen
-slug: grundlagen/einstellungen
+slug: einstellungen
 sitemap:
   changefreq: yearly
   priority: 0.5
 date: 19.4.2024
 taxonomy:
-  #category: Grundlagen
   tag: [ Grundlagen, Einstellungen ]
 ---
 

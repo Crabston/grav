@@ -7,7 +7,7 @@ sitemap:
 date: 20.4.2024
 taxonomy:
   category: Seiten
-  tag: [ Seiten ]
+  tag: [ Anleitung, Seiten ]
 ---
 
 !!! Wie du in Grav eine private Seite erstellst, die nur für angemeldete Benutzer sichtbar ist
