@@ -20,10 +20,11 @@ logs/*
 images/*
 !images/.*
 
-# Environments
+# Environments & Secrets
 .env
 .gravenv
 .grav.env
+doppler.yaml
 
 # OS Generated
 .DS_Store*
