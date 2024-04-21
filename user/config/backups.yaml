@@ -3,6 +3,7 @@ purge:
   max_backups_count: 25
   max_backups_space: 5
   max_backups_time: 365
+# TODO: fix: make "Site Data" backup profile default
 profiles:
   -
     name: 'Default Site Backup'
