@@ -11,6 +11,8 @@ backup/*
 !backup/.*
 cache/*
 !cache/.*
+tmp/*
+!tmp/.*
 assets/*
 !assets/.*
 logs/*
