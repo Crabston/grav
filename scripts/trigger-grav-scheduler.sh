@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # This script is used to trigger the Grav scheduler via cron, when cron cannot run the PHP CLI directly.
-# Usage: /path/to/grav/scripts/trigger-cron.sh
+# Usage: /path/to/grav/scripts/trigger-grav-scheduler.sh
 
 # Change to the Grav root directory
 cd "$(dirname "$0")/.."
@@ -11,4 +11,4 @@ cd "$(dirname "$0")/.."
 /bin/php bin/grav scheduler
 
 # Output the last run time for cron
-echo "last run @ $(date +'%d-%Y-%d %H:%M:%S')"
+echo "last run @ $(date +'%d-%m-%Y %H:%M:%S')"
