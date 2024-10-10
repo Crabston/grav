@@ -1,3 +1,23 @@
+# v1.7.47
+## mm/dd/2024
+
+1. [](#improved) 
+  * Fixed an issue with Clockwork Debugger to allow web UI
+  * Updated vendor libs to latest versions
+
+# v1.7.46
+## 05/15/2024
+
+1. [](#new)
+   * Added a new `Utils::toAscii()` method to remove UTF-8 characters from string
+1. [](#improved) 
+   * Removed unused `symfony/service-contracts` [#3828](https://github.com/getgrav/grav/pull/3828)
+   * Upgraded bundled legacy JQuery to `3.7.1` [#3727](https://github.com/getgrav/grav/pull/3827)
+   * Include modular pages in header `last-modified:` calculation [#3562](https://github.com/getgrav/grav/pull/3562)
+   * Updated vendor libs to latest versions
+1. [](#bugfix)
+   * Fixed some deprecated issues in Filesystem [#3831](https://github.com/getgrav/grav/issues/3831)
+
 # v1.7.46
 ## 05/15/2024
 
