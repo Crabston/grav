@@ -1,3 +1,13 @@
+# v1.7.48
+## 10/28/2024
+
+1. [](#new)
+    * New Trait for fetchPriority attribute on images [#3850](https://github.com/getgrav/grav/pull/3850)
+1. [](#improved)
+    * Fix for #3164. Adds aliases as possible commands during lookup [#3863](https://github.com/getgrav/grav/pull/3863)
+1. [](#bugfix)
+    * Fix style conflict with Clockwork and tooltips [#3861](https://github.com/getgrav/grav/pull/3861)
+
 # v1.7.47
 ## 10/23/2024
 
@@ -43,7 +53,7 @@
 # v1.7.45
 ## 03/18/2024
 
-1. [](#news)
+1. [](#new)
    * Added new Image trait for `decoding` attribute [#3796](https://github.com/getgrav/grav/pull/3796)
 1. [](#bugfix)
    * Fixed some multibyte issues in Inflector class [#732](https://github.com/getgrav/grav/issues/732)
@@ -159,6 +169,7 @@
 1. [](#improved)
     * Removed outdated `xcache` setting [#3615](https://github.com/getgrav/grav/pull/3615)
     * Updated `robots.txt` [#3625](https://github.com/getgrav/grav/pull/3625)
+    * Handle the situation when GRAV_ROOT or GRAV_WEBROOT are `/` [#3625](https://github.com/getgrav/grav/pull/3667)
 1. [](#bugfix)
     * Fixed `force_ssl` redirect in case of undefined hostname [#3702](https://github.com/getgrav/grav/pull/3702)
     * Fixed an issue with duplicate identical page paths
