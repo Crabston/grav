@@ -1,10 +1,10 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="hadron: build CSS" type="js.build_tools.gulp">
+  <configuration default="false" name="local: watch JS" type="js.build_tools.gulp">
     <node-interpreter>project</node-interpreter>
     <node-options />
-    <gulpfile>$PROJECT_DIR$/user/themes/hadron/gulpfile.js</gulpfile>
+    <gulpfile>$PROJECT_DIR$/user/themes/local/gulpfile.js</gulpfile>
     <tasks>
-      <task>buildCSS</task>
+      <task>watchJS</task>
     </tasks>
     <arguments />
     <envs />
