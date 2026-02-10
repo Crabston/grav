@@ -1,43 +1,61 @@
 #!/bin/sh
 
 # This script is used to update one or more Grav components (core, skeleton, plugins, themes) to the latest version.
-# Usage: ./scripts/update.sh <component> <...dirs>
+# Usage: Usage: ./scripts/update.sh <... components>
 
-cd "$(dirname "$0")/.."
+cd "$(dirname "$0")/.." || exit 1
 grav_root=$(pwd)
-component=$1
-dirs=${@:2}
+
+usage() {
+    echo "Usage: ./scripts/update.sh <... components>"
+    echo "Components: core, skeleton, plugins, themes"
+    exit 1
+}
 
 # Check if component is set
-if [ -z "$component" ]; then
-    echo "Usage: ./scripts/update.sh <component> <...dirs>"
-    exit 1
+if [ $# -eq 0 ]; then
+    usage
 fi
 
+update_core() {
+    cd "$grav_root" || exit 1
+    git pull
+}
+update_skeleton() {
+    cd "$grav_root/user" || exit 1
+    git pull
+}
+update_plugins() {
+    cd "$grav_root" || exit 1
+    bin/gpm update --plugins --no-interaction
+}
+update_themes() {
+    cd "$grav_root" || exit 1
+    bin/gpm update --themes --no-interaction
+}
+
 # Actions for each component
-if [ "$component" = "core" ]; then
-    echo "Updating Grav core..."
-    cd $grav_root
-    git pull
-elif [ "$component" = "skeleton" ]; then
-    echo "Updating Grav skeleton..."
-    cd "$grav_root/user"
-    git pull
-elif [ "$component" = "plugins" ]; then
-    echo "Updating Grav plugins..."
-    for dir in $dirs; do
-        echo "    Updating plugin $dir..."
-        cd $grav_root/user/plugins/$dir
-        git pull
-    done
-elif [ "$component" = "themes" ]; then
-    echo "Updating Grav themes..."
-    for dir in $dirs; do
-        echo "    Updating theme $dir..."
-        cd $grav_root/user/themes/$dir
-        git pull
-    done
-else
-    echo "Invalid component: $component"
-    exit 1
-fi
+for component in "$@"; do
+    case "$component" in
+        core)
+            echo "Updating Grav core..."
+            update_core
+            ;;
+        skeleton)
+            echo "Updating Grav skeleton..."
+            update_skeleton
+            ;;
+        plugins)
+            echo "Updating Grav plugins..."
+            update_plugins
+            ;;
+        themes)
+            echo "Updating Grav themes..."
+            update_themes
+            ;;
+        *)
+            echo "Invalid component: $component"
+            usage
+            ;;
+    esac
+done
