@@ -7,13 +7,13 @@ grav_root=$1
 sitemap_url=$2
 
 # Check if grav_root is provided
-if [ -z "grav_root" ]; then
+if [ -z "$grav_root" ]; then
     echo "Usage: ./scripts/scheduler-warm-cache.sh <grav root> <sitemap url>"
     exit 1
 fi
 
 # Check if sitemap_url is provided
-if [ -z "sitemap_url" ]; then
+if [ -z "$sitemap_url" ]; then
     echo "Usage: ./scripts/scheduler-warm-cache.sh <grav root> <sitemap url>"
     exit 1
 fi
