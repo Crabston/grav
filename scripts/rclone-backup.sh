@@ -3,13 +3,14 @@
 # This script is used to backup the Grav Backup files using rClone.
 # Usage: ./scripts/rclone-backup.sh <remote path>
 
-cd "$(dirname "$0")/.."
+cd "$(dirname "$0")/.." || exit 1
 grav_root=$(pwd)
 remotePath=$1
 
 
 # Check if rClone remote path is provided
-if [ -z "remotePath" ]; then
+if [ -z "$remotePath" ]; then
+    echo "no remote path provided"
     echo "Usage: ./scripts/rclone-backup.sh <remote path>"
     exit 1
 fi
@@ -22,7 +23,7 @@ if [ $? -ne 0 ]; then
 fi
 
 # Backup directory to remotePath location
-rclone sync ./backup "$remotePath" --exclude ".*"
+rclone sync "$grav_root/backup" "$remotePath" --exclude ".*" --progress
 
 # Check if the rClone command was successful
 if [ $? -eq 0 ]; then
